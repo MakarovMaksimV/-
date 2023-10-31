@@ -20,17 +20,15 @@ int GetArrayIndex(string input)
     try
     {
         size = Convert.ToInt32(input);
+
         if (size < 1)
         {
             Console.WriteLine("Размер массива должен быть не меньше 1");
-            Console.ReadKey();
             return 0;
         }
 
 
         string[] array = new string[size];
-        string length = "   ";
-
 
         ArrayFromUser(size);
         Console.WriteLine();
@@ -39,7 +37,6 @@ int GetArrayIndex(string input)
         Console.WriteLine();
         Console.WriteLine();
         ResultArray(array);
-        
 
 
         string[] ArrayFromUser(int size)
@@ -66,9 +63,9 @@ int GetArrayIndex(string input)
         void ResultArray(string[] array)
         {
             int size = 0;
-            for (int i = 0; i < array.Length; i++)
+            foreach (string el in array)
             {
-                if (array[i].Length <= length.Length)
+                if (el.Length <= 3)
                 {
                     ++size;
                 }
@@ -76,12 +73,12 @@ int GetArrayIndex(string input)
 
             if (size > 0)
             {
-                Console.WriteLine("Массив с элементами состоящими из 3 или менее символов: ");
-                for (int i = 0; i < size + 1; i++)
+                Console.WriteLine($"Результат: массив из {size} элемента(-ов), содержащихс 3 или менее символов");
+                foreach (string el in array)
                 {
-                    if (array[i].Length <= length.Length)
+                    if (el.Length <= 3)
                     {
-                        Console.Write($"{array[i]} \t");
+                        Console.Write($"{el} \t");
                     }
                 }
             }
@@ -99,4 +96,3 @@ int GetArrayIndex(string input)
     }
     return size;
 }
-Console.ReadKey();
