@@ -73,7 +73,7 @@ int GetArrayIndex(string input)
 
             if (size > 0)
             {
-                Console.WriteLine($"Результат: массив из {size} элемента(-ов), содержащихс 3 или менее символов");
+                Console.WriteLine($"Результат: массив из {size} элемента(-ов), содержащих 3 или менее символов");
                 foreach (string el in array)
                 {
                     if (el.Length <= 3)
