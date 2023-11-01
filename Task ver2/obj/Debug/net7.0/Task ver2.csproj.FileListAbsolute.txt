@@ -1,0 +1,15 @@
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/bin/Debug/net7.0/Task ver2
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/bin/Debug/net7.0/Task ver2.deps.json
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/bin/Debug/net7.0/Task ver2.runtimeconfig.json
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/bin/Debug/net7.0/Task ver2.dll
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/bin/Debug/net7.0/Task ver2.pdb
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/obj/Debug/net7.0/Task ver2.csproj.AssemblyReference.cache
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/obj/Debug/net7.0/Task ver2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/obj/Debug/net7.0/Task ver2.AssemblyInfoInputs.cache
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/obj/Debug/net7.0/Task ver2.AssemblyInfo.cs
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/obj/Debug/net7.0/Task ver2.csproj.CoreCompileInputs.cache
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/obj/Debug/net7.0/Task ver2.dll
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/obj/Debug/net7.0/refint/Task ver2.dll
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/obj/Debug/net7.0/Task ver2.pdb
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/obj/Debug/net7.0/Task ver2.genruntimeconfig.cache
+/Users/maksimmakarov/Desktop/С#/Итоговая работа по основному блоку/Task ver2/obj/Debug/net7.0/ref/Task ver2.dll
