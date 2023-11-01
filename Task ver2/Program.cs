@@ -2,7 +2,6 @@
 string input = Console.ReadLine()!;
 int size = GetArrayIndex(input);
 
-
 int GetArrayIndex(string input)
 {
     int size = 0;
@@ -16,10 +15,8 @@ int GetArrayIndex(string input)
             return 0;
         }
 
-
         string[] array = new string[size];
         string length = "   ";
-
 
         ArrayFromUser(size);
         Console.WriteLine();
@@ -28,7 +25,6 @@ int GetArrayIndex(string input)
         Console.WriteLine();
         Console.WriteLine();
         ResultArray(array);
-
 
         string[] ArrayFromUser(int size)
         {
@@ -40,12 +36,10 @@ int GetArrayIndex(string input)
             return array;
         }
 
-
         void Print(string[] array)
         {
             foreach (string el in array) Console.Write(el + "\t");
         }
-
 
         void ResultArray(string[] array)
         {
@@ -55,24 +49,14 @@ int GetArrayIndex(string input)
             if (size > 0)
             {
                 Console.WriteLine($"Результат: массив из {size} элемента(-ов), содержащих 3 или менее символов");
-                foreach (string el in array)
-                {
-                    if (el.Length <= length.Length) 
-                    {
-                        Console.Write($"{el} \t");
-                    }
-                }
+                foreach (string el in array) if (el.Length <= length.Length) Console.Write($"{el} \t"); 
             }
             else Console.WriteLine("В заданном массиве отсутствуют элементы соответствующие условию");
         }
     }
-
-
     catch
     {
         Console.WriteLine("Ошибка! Не задан размер массива!");
     }
     return size;
 }
-
-Console.ReadKey();
