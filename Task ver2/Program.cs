@@ -55,7 +55,13 @@ int GetArrayIndex(string input)
             if (size > 0)
             {
                 Console.WriteLine($"Результат: массив из {size} элемента(-ов), содержащих 3 или менее символов");
-                foreach (string el in array) if (el.Length <= length.Length) Console.Write($"{el} \t");
+                foreach (string el in array)
+                {
+                    if (el.Length <= length.Length) 
+                    {
+                        Console.Write($"{el} \t");
+                    }
+                }
             }
             else Console.WriteLine("В заданном массиве отсутствуют элементы соответствующие условию");
         }
