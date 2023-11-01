@@ -2,6 +2,7 @@
 string input = Console.ReadLine()!;
 int size = GetArrayIndex(input);
 
+
 int GetArrayIndex(string input)
 {
     int size = 0;
